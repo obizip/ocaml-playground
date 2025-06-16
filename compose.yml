@@ -13,4 +13,4 @@ services:
       - ~/.dotfiles/nvim:/home/opam/.config/nvim
       - ~/.dotfiles/starship/starship.toml:/home/opam/.config/starship.toml
       - ~/.dotfiles/yazi:/home/opam/.config/yazi
-    working_dir: /workspace
+    working_dir: /home/opam/workspace/
